@@ -1,0 +1,22 @@
+.bodyRight {
+    width: 70%;
+    justify-content: center;
+    display: block;
+    margin-top: 150px;
+}
+
+.bodyRight > img {
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    float: left;
+}
+@media screen and (max-width: 600px) {
+    .bodyRight {
+        align-items: center;
+        width: 100%;
+        object-fit: contain;
+    }
+  }

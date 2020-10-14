@@ -1,0 +1,82 @@
+.footer {
+    margin-top: 200px;
+}
+.footer > h1 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 57.6px;
+    margin-bottom: 10px;
+}
+.footer > h1 > mark {
+    background-color: white;
+    color: #ff6347;
+}
+.footer > h5 {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.footer > h5 > mark {
+    background-color: white;
+    color: #ff6347;   
+    margin-bottom: 2px;
+}
+.footer > h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+    text-align: center;
+}
+.footer__ImageRow {
+    display: flex;
+    flex-direction: column;
+}
+.footer__Image {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer__Image2{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer__eachImage {
+    margin: 20px 40px;
+}
+.footer__eachImage > img {
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+}
+.footer__eachImage > figcaption {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .footer__Image {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer__Image2 {
+      display: flex;
+      flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer__Image {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__Image2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
